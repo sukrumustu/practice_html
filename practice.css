@@ -1,0 +1,116 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+body {
+    font-family: "Open Sans";
+    
+}
+
+nav.nav-top {
+
+    background-image: linear-gradient(
+        to right,
+        rgb(167, 145, 159), rgba(172, 4, 172, 0.8) );
+
+}
+
+nav.nav-top img{
+    width: 50px;
+}
+
+.nav-top .sign-in{
+    float: right;
+    margin: 1.5rem 1rem;
+    color: white;
+    font-weight: 700;
+    /* text-decoration: none; */
+}
+.nav-top .sign-in a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-top .sign-in a:hover{
+    color: black;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.nav-main{
+/* border: 2px solid red; */
+height: 12vh;
+text-align: center;
+background-color: #ffaa53;
+padding: 1.4rem;
+padding-bottom: 0.9rem;
+position: sticky;
+top: 0%;
+
+
+}
+
+.nav-main a{
+
+    
+    text-decoration: none;
+    /* margin-top: 0.8rem; */
+    /* margin-right: 4rem; */
+    padding: 0.7rem 1.4rem;
+    /* border: 2px solid red; */
+    font-family: "DynaPuff";
+    color: black;
+    font-weight: 700;
+    
+}
+
+.nav-main a:hover{
+
+    color: rgb(255,255,255);
+}
+
+
+main {
+    text-align: justify ;
+    padding: 2rem;
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
+.slack{
+
+    position: fixed;
+    right: 2.5rem;
+    bottom: 2rem;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 50%;
+    height: 2.8rem;
+    width: 3rem;
+    text-align: center;
+    
+}
+
+.slack:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* .fa-brands fa-slack{
+
+   font-family: "Font Awesome 6 Brands";
+    font-weight: 400; 
+} */
+
+
+
+
+
+
